@@ -46,7 +46,7 @@ ON
 DP.PublisherKey = DT.PublisherKey
 
 WHERE 
- @ShowAll = 'True'
+ @ShowAll = 'False'
  OR
  [Date] BETWEEN @StartDate AND @EndDate
  AND
